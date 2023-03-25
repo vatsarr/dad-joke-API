@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 70%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.joke {
+  font-size: 2rem;
+  margin: 4rem auto;
+}
+
+.tags-container {
+  margin: 2rem auto;
+  font-style: italic;
+}
+
+.tags-container ul li {
+  margin: 0.5rem;
+  display: inline-block;
+}
+
+.new-joke-btn button {
+  font-family: "poppins", sans-serif;
+  border: none;
+  border-radius: 5%;
+  padding: 1rem;
+  font-size: 1rem;
+}
